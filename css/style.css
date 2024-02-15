@@ -7,7 +7,7 @@
 
 :root {
 
-  --main-color: #f5ecdf;
+  --main-color: #F5E4CC;
   --primary-color: #000;
   --hover: #5a4d3e;
   --black: #2a201c;
@@ -17,6 +17,7 @@
   --border: .1rem solid #aaa;
   --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
   --burgundy: #8d143c;
+
 }
 
 * {
@@ -163,9 +164,16 @@ nav {
 
 .home .content h3 {
   color: var(--white);
-  font-size: 8rem;
-  line-height: 8rem;
-  font-weight: 900;
+  font-size: 7rem;
+  line-height: 6rem;
+  font-weight: 700;
+}
+
+.home .content h2 {
+  color: var(--white);
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 500;
 }
 
 /* home */
@@ -201,6 +209,7 @@ nav {
   color: #444;
   padding: 1rem 0;
   line-height: 1.8;
+  align-items: center;
 }
 
 .about .content .icons-container {
